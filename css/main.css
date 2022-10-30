@@ -644,7 +644,9 @@ a{
 
     .ads{
         width: 100%;
-        display: none;
+        /* max-height: 60px;
+        display: flex; */
+
     }
     .side-bar{
         opacity: 0;
@@ -654,6 +656,7 @@ a{
         left: -267px;
         transition: all 0.6s linear;
         z-index: 1;
+        /* max-height: calc(100% - 60px); */
     }
     .side-bar .logo-picture{
         display: none;
