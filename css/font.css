@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'MarkOT-Book';
+    src: url('../css/font/MarkOT-Book.woff2') format('woff2'),
+        url('../css/font/MarkOT-Book.woff') format('woff'),
+        url('../css/font/MarkOT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MarkOT';
+    src: url('../css/font/MarkOT-Medium.woff2') format('woff2'),
+        url('../css/font/MarkOT-Medium.woff') format('woff'),
+        url('../css/font/MarkOT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MarkOT';
+    src: url('../css/font/MarkOT-Heavy.woff2') format('woff2'),
+        url('../css/font/MarkOT-Heavy.woff') format('woff'),
+        url('../css/font/MarkOT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MarkOT';
+    src: url('../css/font/MarkOT-Bold.woff2') format('woff2'),
+        url('../css/font/MarkOT-Bold.woff') format('woff'),
+        url('../css/font/MarkOT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
