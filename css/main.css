@@ -638,6 +638,7 @@ a{
     background-color: #F8FAF9;
     border: 1px solid #E5F0EF;
     border-radius: 20px;
+    margin: auto;
 }
 
 .content .app-section .app-body .container-info{
