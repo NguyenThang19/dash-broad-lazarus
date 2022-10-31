@@ -688,6 +688,10 @@ a{
         padding-left: 0px;
         padding-right: 0px;
     }
+
+    .content .app-section .app-body{
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 1439px){
