@@ -237,9 +237,83 @@
                         </a>
                     </div>
                     <div class="message-body">
-                        <div class="slider" style="width: 100%; height: 348px; background-color: rgb(128, 128, 255);">
-
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide message-items">
+                                    <div class="title">
+                                        This message is for:
+                                    </div>
+                                    <div class="info-users">
+                                        <img src="./image/avatar-message.png" alt="">
+                                        <span class="name-users">Gladys Williamson</span>
+                                    </div>
+                                    <div class="message-content">
+                                        In case I die unexpectedly, or before my time, I want you to know that I’ve lived a full and good life. I had the...
+                                    </div>
+                                    <div class="manage-mess">
+                                        <i class="icon-file"> <img src="./image/icon-flie.png" alt=""> </i>
+                                        <span class="text">
+                                            4 files included in this message
+                                        </span>
+                                    </div>
+                                    <div class="action-message">
+                                        <a href="#" class="edit"> Edit message </a>
+                                        <a href="#" class="read">Read</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide message-items">
+                                    <div class="title">
+                                        This message is for:
+                                    </div>
+                                    <div class="info-users">
+                                        <img src="./image/avatar-message.png" alt="">
+                                        <span class="name-users">Gladys Williamson</span>
+                                    </div>
+                                    <div class="message-content">
+                                        In case I die unexpectedly, or before my time, I want you to know that I’ve lived a full and good life. I had the...
+                                    </div>
+                                    <div class="manage-mess">
+                                        <i class="icon-file"> <img src="./image/icon-flie.png" alt=""> </i>
+                                        <span class="text">
+                                            4 files included in this message
+                                        </span>
+                                    </div>
+                                    <div class="action-message">
+                                        <a href="#" class="edit"> Edit message </a>
+                                        <a href="#" class="read">Read</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide message-items">
+                                    <div class="title">
+                                        This message is for:
+                                    </div>
+                                    <div class="info-users">
+                                        <img src="./image/avatar-message.png" alt="">
+                                        <span class="name-users">Gladys Williamson</span>
+                                    </div>
+                                    <div class="message-content">
+                                        In case I die unexpectedly, or before my time, I want you to know that I’ve lived a full and good life. I had the...
+                                    </div>
+                                    <div class="manage-mess">
+                                        <i class="icon-file"> <img src="./image/icon-flie.png" alt=""> </i>
+                                        <span class="text">
+                                            4 files included in this message
+                                        </span>
+                                    </div>
+                                    <div class="action-message">
+                                        <a href="#" class="edit"> Edit message </a>
+                                        <a href="#" class="read">Read</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="swiper-button-next">
+                            <img src="./image/Arrow 5.png" alt="">
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img src="./image/Arrow 6.png" alt="">
+                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
                 <div class="trustees-section">
@@ -308,6 +382,45 @@
         </div>
     </div>
 
+    <!-- Script Slide -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints:{
+            320:{
+                slidesPerView: 1,
+                spaceBetween: 10,
+                slidesPerGroup: 1,
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+            },
+
+            1024:{
+                slidesPerView: 1.5,
+                spaceBetween: 20,
+                slidesPerGroup: 1,
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+            }
+            
+        }
+      });
+    </script>
     <!-- Script main -->
     <script src="./javascript/main.js"></script>
 </body>
