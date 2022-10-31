@@ -691,7 +691,7 @@ a{
     }
 
     .content .app-section .app-body{
-        margin: auto;
+        margin: 0 auto;
     }
 }
 
